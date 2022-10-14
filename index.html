@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+
+        
+    }
+    #warning-message { display: none; }
+    @media only screen and (orientation:portrait){
+        #wrapper { display:none; }
+        #warning-message { display:block; }
+    }
+    @media only screen and (orientation:landscape){
+        #warning-message { display:none; }
+    }
+
+     #warning-message{
+       color: white;
+     }
+    .bg {
+     background-image:linear-gradient(to right, rgba(200, 8,207, 0.75), rgba(28, 70, 184, 0.8)),
+      url('https://www.hmablogs.com/wp-content/uploads/2022/06/background-1-scaled.jpg');
+    background-size: 100vw 100vh;
+    }
+    .logo1 {
+        color: white;
+        margin-left: 2.8rem;
+        margin-top:1rem ;
+        font-size: 1.1rem;
+
+    }
+    .navul {
+        display: flex;
+        float: right;
+        margin-top: -1.4rem;
+    }
+    .navli {
+       list-style: none;
+       margin: 1rem;
+    }
+    .navli a {
+        text-decoration: none;
+     color: white;
+    
+    }
+.logbg{
+
+    color: black;
+    padding: 2px 20px;
+    border-radius: 0.5rem;
+    border-style: none;
+}
+.harsh{
+width: 18rem;
+height: 15rem;
+margin-left: 28rem;}
+.harsh1{
+margin-top: -13rem;
+margin-left: 2.5rem;
+color: white;
+
+
+}
+.harsh3{
+font-size: .8rem;}
+.harsh4{
+padding:4px 12px;
+border-radius:2rem ;
+border-style: none;
+margin-top: 10px;
+color: blue;
+}
+
+
+    </style>
+</head>
+<body class="bg">
+    <div id="warning-message">
+        This website is only viewable in landscape mode
+    </div>
+ <div id="wrapper">
+<div class="logo">
+    <h2 class="logo1">Brand </h2>
+
+</div>    
+<div class="nab">
+    <nav class="navbar">
+<ul class="navul">
+    <li class="navli"><a href="https://instagram.com/harsh.roy_01?igshid=YmMyMTA2M2Y=">Home</a></li>
+    <li class="navli"><a href="https://instagram.com/harsh.roy_01?igshid=YmMyMTA2M2Y=">About</a></li>
+    <li class="navli"><a href="https://instagram.com/harsh.roy_01?igshid=YmMyMTA2M2Y=">Contact us</a></li>
+    <li class="navli"><a href="https://instagram.com/harsh.roy_01?igshid=YmMyMTA2M2Y=">Services</a></li>
+    <li class="navli"><a href="">
+       <button class="logbg"> Login</button></a></li>
+</ul>
+
+    </nav>
+</div>    
+<div class=" middle">
+   <img class="harsh" src="https://www.hmablogs.com/wp-content/uploads/2022/06/banner-img.png" alt="">
+</div>    
+<div class="harsh1"> 
+<h1 class harsh2> Responsive design</h1>
+
+<p class="harsh3"> contact us from responsive web design to grow your</p>
+<p class="harsh3"> business!</p> 
+<button class="harsh4">purchase</button>
+
+</div>
+
+
+
+</div>
+ 
+</body>
+</html>
